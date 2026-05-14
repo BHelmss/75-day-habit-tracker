@@ -10,7 +10,7 @@ import {
   listChallengeDates,
   parseYMDUtc,
 } from "./challenge";
-import type { Habit } from "@/types";
+import type { Habit } from "../types";
 
 describe("parseYMDUtc / diffCalendarDaysUtc", () => {
   it("counts same day as 0", () => {

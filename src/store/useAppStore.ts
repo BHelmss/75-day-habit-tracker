@@ -34,7 +34,7 @@ const base = createDefaultState();
 
 export const useAppStore = create<AppStore>()(
   persist(
-    (set, get) => ({
+    (set, _get) => ({
       ...base,
       setChallenge: (patch) =>
         set((s) => ({
