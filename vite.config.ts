@@ -14,9 +14,9 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["vite.svg"],
       manifest: {
-        name: "75 Soft Tracker",
-        short_name: "75 Soft",
-        description: "Track your custom 75-day challenge",
+        name: "75 sustained",
+        short_name: "75 sustained",
+        description: "Track your custom seventy-five day challenge",
         display: "standalone",
         background_color: "#0f172a",
         theme_color: "#0f172a",

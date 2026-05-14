@@ -77,7 +77,7 @@ describe("habitSatisfied", () => {
   const cb: Habit = { id: "1", name: "x", kind: "checkbox" };
   const num: Habit = { id: "2", name: "water", kind: "number", target: 3000 };
   const numNoTarget: Habit = { id: "3", name: "pages", kind: "number" };
-  const dur: Habit = { id: "4", name: "move", kind: "duration", target: 45 });
+  const dur: Habit = { id: "4", name: "move", kind: "duration", target: 45 };
 
   it("checkbox", () => {
     expect(habitSatisfied(cb, true)).toBe(true);

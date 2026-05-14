@@ -1,4 +1,4 @@
-# 75-day habit tracker (PWA)
+# 75 sustained (PWA)
 
 Web app for a **75-day challenge** with a **custom habit list** (checkbox, numeric goals, or minutes). Data stays in **this browser** via `localStorage` unless you export a JSON backup.
 

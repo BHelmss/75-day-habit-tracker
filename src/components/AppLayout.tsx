@@ -11,11 +11,13 @@ const linkClass = ({ isActive }: { isActive: boolean }) =>
 export function AppLayout() {
   return (
     <div className="mx-auto flex min-h-dvh max-w-lg flex-col px-4 pb-10 pt-6">
-      <header className="mb-6 flex flex-col gap-1">
-        <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
-          Install this app from the browser menu for offline use (Add to Home Screen on iOS).
-        </p>
-        <h1 className="text-2xl font-semibold tracking-tight text-white">75-day tracker</h1>
+      <header className="mb-8 border-b border-slate-800/90 pb-6">
+        <h1 className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+          <span className="bg-gradient-to-br from-emerald-300 via-emerald-400 to-teal-600 bg-clip-text text-5xl font-black tabular-nums leading-none text-transparent drop-shadow-[0_0_32px_rgba(52,211,153,0.25)] sm:text-6xl">
+            75
+          </span>
+          <span className="text-3xl font-extrabold tracking-tight text-slate-50 sm:text-4xl">sustained</span>
+        </h1>
       </header>
       <nav className="mb-6 flex gap-2" aria-label="Main">
         <NavLink to="/" end className={linkClass}>
